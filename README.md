@@ -26,9 +26,12 @@ Live API Docs: http://127.0.0.1:8000/docs (Swagger UI)
 - Returns structured JSON ready for downstream systems
 
 ## Folder Structure
--superclaims-backend/
+ -superclaims-backend/
+ 
 -├── app/
+
 -│ ├── main.py # FastAPI app
+
 -│ ├── agents/
 -│ │ └── orchestrator.py # LLM classification & extraction
 -│ ├── services/
@@ -241,4 +244,5 @@ Ready to deploy. Give it a star if you like it!
 
 
 Perfect, clean, and ready to copy-paste as your final `README.md`!
+
 
