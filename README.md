@@ -26,33 +26,22 @@ Live API Docs: http://127.0.0.1:8000/docs (Swagger UI)
 - Returns structured JSON ready for downstream systems
 
 ## Folder Structure
- superclaims-backend/
- 
+```bash
+superclaims-backend/
 ├── app/
-
 │ ├── main.py # FastAPI app
-
 │ ├── agents/
-
 │ │ └── orchestrator.py # LLM classification & extraction
-
 │ ├── services/
-
 │ │ └── document_service.py # PDF text extraction
-
 │ └── models/
-
 │ └── schemas.py # Pydantic response schemas
-
 ├── sample_data/ # Mock PDFs for testing
-
 │ └── bill1.pdf
-
 ├── .env.example
-
 ├── requirements.txt
-
 └── README.md
+```
 
 ## Setup Instructions
 
@@ -127,25 +116,7 @@ Live API Docs: http://127.0.0.1:8000/docs (Swagger UI)
 - Final validation checks missing documents and cross-document mismatches (names, dates, amounts)  
 - Returns clean, structured JSON ready for downstream adjudication
 
-## Folder Structure
-```bash
-superclaims-backend/
-├── app/
-│   ├── main.py
-│   ├── agents/              # BillAgent, DischargeAgent, etc.
-│   ├── core/
-│   │   └── grok_client.py   # Grok API wrapper
-│   ├── models/              # Pydantic schemas
-│   ├── routers/
-│   │   └── claim.py
-│   └── utils/
-│       └── pdf.py           # PDF text extraction
-├── prompts/                 # Prompt templates
-├── sample_data/             # Example PDFs
-├── requirements.txt
-├── .env                     # GROK_API_KEY=...
-└── README.md
-```
+
 
 ## Setup Instructions
 ```bash
@@ -254,6 +225,7 @@ Ready to deploy. Give it a star if you like it!
 
 
 Perfect, clean, and ready to copy-paste as your final `README.md`!
+
 
 
 
