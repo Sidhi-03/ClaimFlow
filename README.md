@@ -28,23 +28,21 @@ Live API Docs: http://127.0.0.1:8000/docs (Swagger UI)
 ## Folder Structure
 superclaims-backend/
 ├── app/
-│   ├── main.py
-│   ├── agents/              # BillAgent, DischargeAgent, etc.
-│   ├── core/
-│   │   └── grok_client.py   # Grok API wrapper
-│   ├── models/              # Pydantic schemas
-│   ├── routers/
-│   │   └── claim.py
-│   └── utils/
-│       └── pdf.py           # PDF text extraction
-├── prompts/                 # Prompt templates
-├── sample_data/             # Example PDFs
+│ ├── main.py # FastAPI app
+│ ├── agents/
+│ │ └── orchestrator.py # LLM classification & extraction
+│ ├── services/
+│ │ └── document_service.py # PDF text extraction
+│ └── models/
+│ └── schemas.py # Pydantic response schemas
+├── sample_data/ # Mock PDFs for testing
+│ └── bill1.pdf
+├── .env.example
 ├── requirements.txt
-├── .env                     # GROK_API_KEY=...
 └── README.md
 
 ## Setup Instructions
-```bash
+
 git clone https://github.com/Sidhi-03/superclaims_backend.git
 cd superclaims_backend
 
@@ -75,7 +73,6 @@ Open → http://127.0.0.1:8000/docs
 **Content-Type**: `multipart/form-data`  
 **Field**: `files` (array of PDF files)
 
-```bash
 curl -X POST "http://127.0.0.1:8000/process-claim" \
   -F "files=@sample_data/bill1.pdf" \
   -F "files=@sample_data/discharge_summary1.pdf" \
@@ -241,5 +238,6 @@ Achieves **>98% reliable structured output** on real Indian medical documents.
 
 Ready to deploy. Give it a star if you like it!
 ``` 
+
 
 Perfect, clean, and ready to copy-paste as your final `README.md`!
