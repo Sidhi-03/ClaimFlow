@@ -1,5 +1,5 @@
-# SuperClaims Backend  
-**Medical Claim Processing System with LLM-powered Agents**
+# ClaimsFlow 
+**Intelligent Medical Insurance Claim Automation with Grok xAI**
 
 A production-ready FastAPI backend that processes multiple medical claim PDFs in a single request. It classifies documents, extracts structured data using **Grok (xAI)**, validates consistency across documents, and returns a final claim decision: **approved**, **rejected**, or **manual_review**.
 
@@ -225,6 +225,7 @@ Ready to deploy. Give it a star if you like it!
 
 
 Perfect, clean, and ready to copy-paste as your final `README.md`!
+
 
 
 
