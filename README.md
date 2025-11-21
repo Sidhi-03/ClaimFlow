@@ -115,7 +115,7 @@ Live API Docs: http://127.0.0.1:8000/docs (Swagger UI)
 - Returns clean, structured JSON ready for downstream adjudication
 
 ## Folder Structure
-```
+```bash
 superclaims-backend/
 ├── app/
 │   ├── main.py
