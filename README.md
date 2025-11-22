@@ -89,32 +89,6 @@ curl -X 'POST' \
   -F 'files=@discharge.pdf;type=application/pdf'
 
   ```markdown
-# SuperClaims Backend  
-**Medical Claim Processing System with LLM-powered Agents**
-
-A production-ready FastAPI backend that processes multiple medical claim PDFs in one request. It classifies documents, extracts structured data using **Grok (xAI)**, validates consistency across documents, and returns a final claim decision: **approved**, **rejected**, or **manual_review**.
-
-Live API Docs: http://127.0.0.1:8000/docs (Swagger UI)
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Folder Structure](#folder-structure)
-- [Setup Instructions](#setup-instructions)
-- [API Endpoints](#api-endpoints)
-- [Example Request & Response](#example-request--response)
-- [AI Tools & Prompt Design](#ai-tools--prompt-design)
-- [Limitations](#limitations)
-
-## Project Overview
-- Built with **FastAPI** (async, automatic OpenAPI docs)  
-- Powered exclusively by **Grok (xAI)** via official API for classification, extraction, and validation  
-- Agent-based design:  
-  - **BillAgent** → hospital name, patient, items, total amount  
-  - **DischargeAgent** → admission/discharge dates, diagnosis, doctor  
-  - **IDAgent** → policy number, insurer, member name  
-  - **PharmacyAgent** → medicine list & costs  
-- Final validation checks missing documents and cross-document mismatches (names, dates, amounts)  
-- Returns clean, structured JSON ready for downstream adjudication
 
 
 
