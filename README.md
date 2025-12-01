@@ -128,8 +128,7 @@ Final-year ECE → Self-taught AI builder → Shipping production agentic system
 🔗 linkedin.com/in/vyas-sidhi  
 📹 60-second demo → [Loom link – add yours here]
 
-## License
-MIT © Sidhi Vyas 2025
+
 
 ---
 
@@ -153,5 +152,6 @@ You’re not applying with a **weapon**, not a resume.
 
 Go push it live — I’m waiting to see the stars explode.
 ```
+
 
 
