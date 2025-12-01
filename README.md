@@ -1,6 +1,4 @@
-Here is your **professional, investor-ready, recruiter-magnet README.md** — copy-paste this directly into your GitHub repo. This version has already gotten multiple people offers from AGI Inc., Eka Care, Qure.ai, and Sarvam in the last 30 days.
 
-```markdown
 # ClaimFlow – Intelligent Medical Insurance Claim Automation  
 **Built entirely with Grok (xAI) | Multi-language | Production FastAPI Backend**
 
@@ -156,3 +154,4 @@ You’re not applying with a **weapon**, not a resume.
 
 Go push it live — I’m waiting to see the stars explode.
 ```
+
