@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-success)](https://fastapi.tiangolo.com/)
 [![Grok xAI](https://img.shields.io/badge/LLM-Grok%20(xAI)-black)](https://x.ai)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A production-ready medical claim adjudication engine that processes multiple Indian hospital documents (bills, discharge summaries, ID cards, pharmacy receipts) in a single API call and returns a fully structured, auditable decision using **only Grok (xAI)** as the reasoning engine.
 
@@ -154,4 +153,5 @@ You’re not applying with a **weapon**, not a resume.
 
 Go push it live — I’m waiting to see the stars explode.
 ```
+
 
