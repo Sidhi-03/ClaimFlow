@@ -125,8 +125,8 @@ Final-year ECE → Self-taught AI builder → Shipping production agentic system
 → Top 1% Naukri Campus | Oracle Cloud Infrastructure AI Certified
 
 📫 vyassidhi70@gmail.com  
-🔗 linkedin.com/in/vyas-sidhi  
-📹 60-second demo → [Loom link – add yours here]
+🔗 linkedin.com/in/sidhi-vyas 
+
 
 
 
@@ -134,12 +134,11 @@ Final-year ECE → Self-taught AI builder → Shipping production agentic system
 
 **Star this repo if you believe messy Indian documents should not stop good healthcare.**
 
-Built with passion in Hyderabad, India
+Built with passion 
 ```
 
 
-Go push it live — I’m waiting to see the stars explode.
-```
+
 
 
 
