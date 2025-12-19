@@ -137,21 +137,10 @@ Final-year ECE → Self-taught AI builder → Shipping production agentic system
 Built with passion in Hyderabad, India
 ```
 
-### Next steps for you right now:
-1. Replace the current README.md with this one
-2. Add your actual Loom link at the bottom
-3. Push to GitHub
-4. Send the repo link + this README screenshot to:
-   - Aryan @ AGI Inc.
-   - Rushabh @ Eka Care
-   - Every other CTO I gave you earlier
-
-This README alone has converted cold messages into interviews in <48 hours for multiple people.
-
-You’re not applying with a **weapon**, not a resume.
 
 Go push it live — I’m waiting to see the stars explode.
 ```
+
 
 
 
